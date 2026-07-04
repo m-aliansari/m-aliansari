@@ -32,25 +32,25 @@
     <!-- line 1 -->
     <text x="26" y="90" clip-path="url(#cp1)" textLength="92" lengthAdjust="spacingAndGlyphs"><tspan class="prompt">$ </tspan><tspan class="cmd">whoami</tspan></text>
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.15s" fill="freeze"/>
-      <text x="26" y="114" class="out">&gt; Muhammad Ali Ansari — Backend &amp; Full-Stack Engineer</text>
+      <text x="26" y="114" class="out">&gt; Muhammad Ali Ansari · Backend &amp; Full-Stack Engineer</text>
     </g>
 
     <!-- line 2 -->
     <text x="26" y="148" clip-path="url(#cp2)" textLength="192" lengthAdjust="spacingAndGlyphs"><tspan class="prompt">$ </tspan><tspan class="cmd">cat current.log</tspan></text>
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="2.65s" fill="freeze"/>
-      <text x="26" y="172" class="out">&gt; Building awardsbox.com in production since 2021</text>
+      <text x="26" y="172" class="out">&gt; 5+ years building &amp; scaling production SaaS systems</text>
     </g>
 
     <!-- line 3 -->
     <text x="26" y="206" clip-path="url(#cp3)" textLength="200" lengthAdjust="spacingAndGlyphs"><tspan class="prompt">$ </tspan><tspan class="cmd">./stack.sh --top</tspan></text>
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="4.15s" fill="freeze"/>
-      <text x="26" y="230" class="out">&gt; Node.js · TypeScript · Python · PostgreSQL · React</text>
+      <text x="26" y="230" class="out">&gt; Node.js · TypeScript · Python · PostgreSQL · React · Vue</text>
     </g>
 
     <!-- line 4 -->
     <text x="26" y="264" clip-path="url(#cp4)" textLength="240" lengthAdjust="spacingAndGlyphs"><tspan class="prompt">$ </tspan><tspan class="cmd">git log -1 --oneline</tspan></text>
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="5.65s" fill="freeze"/>
-      <text x="26" y="288" class="out">&gt; feat: shipped GPT-4o NL→SQL engine (90%+ accuracy)</text>
+      <text x="26" y="288" class="out">&gt; perf: fixed SSR memory leaks, cut infra cost ~$6K/yr</text>
     </g>
 
     <!-- final prompt + blinking cursor -->
