@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/m-aliansari/m-aliansari/master/terminal-banner.svg" width="100%" alt="Muhammad Ali Ansari terminal banner" />
 
-### Backend-leaning Full-Stack Engineer
+### Software Engineer
 
 <a href="https://muhammadaliansari.com"><img src="https://img.shields.io/badge/Portfolio-Visit-39d353?style=for-the-badge&logo=googlechrome&logoColor=0d1117" /></a>
 <a href="https://www.linkedin.com/in/muhammad-ali-ansari-61304a1b3/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
