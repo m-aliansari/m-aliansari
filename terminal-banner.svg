@@ -1,0 +1,63 @@
+<svg viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace">
+  <defs>
+    <clipPath id="term-clip"><rect x="1" y="1" width="898" height="398" rx="14"/></clipPath>
+    <clipPath id="cp1"><rect x="26" y="72" width="0" height="26"><animate attributeName="width" from="0" to="92" dur="0.6s" begin="0.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="cp2"><rect x="26" y="130" width="0" height="26"><animate attributeName="width" from="0" to="192" dur="0.6s" begin="1.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="cp3"><rect x="26" y="188" width="0" height="26"><animate attributeName="width" from="0" to="200" dur="0.6s" begin="3.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="cp4"><rect x="26" y="246" width="0" height="26"><animate attributeName="width" from="0" to="240" dur="0.6s" begin="4.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="cp5"><rect x="26" y="304" width="0" height="26"><animate attributeName="width" from="0" to="252" dur="0.6s" begin="6.4s" fill="freeze"/></rect></clipPath>
+    <style>
+      .prompt { fill:#39d353; font-weight:700; }
+      .cmd { fill:#c9d1d9; font-weight:600; }
+      .out { fill:#8b949e; }
+      text { font-size:18px; }
+      .out { font-size:15px; }
+      @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+      .cursor { animation: blink 1s step-end infinite; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#term-clip)">
+    <rect x="0" y="0" width="900" height="400" fill="#0d1117"/>
+    <rect x="0" y="0" width="900" height="399.5" fill="none" stroke="#30363d" stroke-width="1"/>
+
+    <!-- title bar -->
+    <rect x="0" y="0" width="900" height="38" fill="#161b22"/>
+    <line x1="0" y1="38" x2="900" y2="38" stroke="#30363d" stroke-width="1"/>
+    <circle cx="24" cy="19" r="6" fill="#f78166"/>
+    <circle cx="46" cy="19" r="6" fill="#e3b341"/>
+    <circle cx="68" cy="19" r="6" fill="#39d353"/>
+    <text x="450" y="24" text-anchor="middle" fill="#8b949e" font-size="13">ali@github: ~/profile</text>
+
+    <!-- line 1 -->
+    <text x="26" y="90" clip-path="url(#cp1)" textLength="92" lengthAdjust="spacingAndGlyphs"><tspan class="prompt">$ </tspan><tspan class="cmd">whoami</tspan></text>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.15s" fill="freeze"/>
+      <text x="26" y="114" class="out">&gt; Muhammad Ali Ansari — Backend &amp; Full-Stack Engineer</text>
+    </g>
+
+    <!-- line 2 -->
+    <text x="26" y="148" clip-path="url(#cp2)" textLength="192" lengthAdjust="spacingAndGlyphs"><tspan class="prompt">$ </tspan><tspan class="cmd">cat current.log</tspan></text>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="2.65s" fill="freeze"/>
+      <text x="26" y="172" class="out">&gt; Building awardsbox.com in production since 2021</text>
+    </g>
+
+    <!-- line 3 -->
+    <text x="26" y="206" clip-path="url(#cp3)" textLength="200" lengthAdjust="spacingAndGlyphs"><tspan class="prompt">$ </tspan><tspan class="cmd">./stack.sh --top</tspan></text>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="4.15s" fill="freeze"/>
+      <text x="26" y="230" class="out">&gt; Node.js · TypeScript · Python · PostgreSQL · React</text>
+    </g>
+
+    <!-- line 4 -->
+    <text x="26" y="264" clip-path="url(#cp4)" textLength="240" lengthAdjust="spacingAndGlyphs"><tspan class="prompt">$ </tspan><tspan class="cmd">git log -1 --oneline</tspan></text>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="5.65s" fill="freeze"/>
+      <text x="26" y="288" class="out">&gt; feat: shipped GPT-4o NL→SQL engine (90%+ accuracy)</text>
+    </g>
+
+    <!-- final prompt + blinking cursor -->
+    <text x="26" y="322" clip-path="url(#cp5)" textLength="252" lengthAdjust="spacingAndGlyphs"><tspan class="prompt">$ </tspan><tspan class="cmd">status --open-to-work</tspan></text>
+    <g visibility="hidden">
+      <animate attributeName="visibility" from="hidden" to="visible" begin="7.0s" dur="0.1s" fill="freeze"/>
+      <rect class="cursor" x="284" y="306" width="11" height="20" fill="#39d353"/>
+    </g>
+  </g>
+</svg>
